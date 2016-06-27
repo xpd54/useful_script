@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 #get the we driver 
-driver = webdriver.Chrome('/Users/quintotechnologiespvtltd/Documents/chromedriver/chromedriver')  # Optional argument, if not specified will search path.
+driver = webdriver.Chrome('path of chromedriver')  # Optional argument, if not specified will search path.
 
 
 driver.get('http://facebook.com');

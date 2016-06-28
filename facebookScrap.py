@@ -1,3 +1,4 @@
+
 import time
 from selenium import webdriver
 #get the we driver 
@@ -23,6 +24,6 @@ for content in postContent:
 				plist = tag.find_elements_by_tag_name('p')
 				for text in plist:
 					print text.get_attribute('innerText')
-					print "============================="
+                                print '==============================='
 time.sleep(5) # Let the user actually see something!
 driver.quit()
